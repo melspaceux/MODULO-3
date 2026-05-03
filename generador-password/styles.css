@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.contenedor {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 400px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+}
+
+.pantalla {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+#txtPassword {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+}
+
+#btnCopiar {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #eee;
+    border: 1px solid #ccc;
+}
+
+
+.config {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.opcion-largo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.opciones {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.fuerza {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#btnGenerar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+#btnGenerar:hover {
+    background-color: #45a049;
+}
