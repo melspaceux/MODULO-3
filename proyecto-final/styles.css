@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+.main-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+textarea {
+    height: 80px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.comentario {
+    padding: 15px;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    border-radius: 5px;
+    position: relative;
+}
+
+.comentario p {
+    margin: 0 0 10px 0;
+}
+
+.fecha {
+    font-size: 0.8em;
+    color: #888;
+}
+
+.btn-borrar {
+    background-color: #dc3545;
+    font-size: 0.7em;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: block;
+    width: fit-content;
+}
+
+.btn-borrar:hover {
+    background-color: #c82333;
+}
